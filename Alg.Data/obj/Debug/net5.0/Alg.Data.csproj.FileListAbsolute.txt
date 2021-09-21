@@ -1,0 +1,15 @@
+/home/rajkovrga/RiderProjects/AlgSolution/Alg.Data/obj/Debug/net5.0/Alg.Data.csproj.AssemblyReference.cache
+/home/rajkovrga/RiderProjects/AlgSolution/Alg.Data/obj/Debug/net5.0/Alg.Data.GeneratedMSBuildEditorConfig.editorconfig
+/home/rajkovrga/RiderProjects/AlgSolution/Alg.Data/obj/Debug/net5.0/Alg.Data.AssemblyInfoInputs.cache
+/home/rajkovrga/RiderProjects/AlgSolution/Alg.Data/obj/Debug/net5.0/Alg.Data.AssemblyInfo.cs
+/home/rajkovrga/RiderProjects/AlgSolution/Alg.Data/obj/Debug/net5.0/Alg.Data.csproj.CoreCompileInputs.cache
+/home/rajkovrga/RiderProjects/AlgSolution/Alg.Data/bin/Debug/net5.0/Alg.Data.deps.json
+/home/rajkovrga/RiderProjects/AlgSolution/Alg.Data/bin/Debug/net5.0/Alg.Data.runtimeconfig.json
+/home/rajkovrga/RiderProjects/AlgSolution/Alg.Data/bin/Debug/net5.0/Alg.Data.runtimeconfig.dev.json
+/home/rajkovrga/RiderProjects/AlgSolution/Alg.Data/bin/Debug/net5.0/Alg.Data.dll
+/home/rajkovrga/RiderProjects/AlgSolution/Alg.Data/bin/Debug/net5.0/ref/Alg.Data.dll
+/home/rajkovrga/RiderProjects/AlgSolution/Alg.Data/bin/Debug/net5.0/Alg.Data.pdb
+/home/rajkovrga/RiderProjects/AlgSolution/Alg.Data/obj/Debug/net5.0/Alg.Data.dll
+/home/rajkovrga/RiderProjects/AlgSolution/Alg.Data/obj/Debug/net5.0/ref/Alg.Data.dll
+/home/rajkovrga/RiderProjects/AlgSolution/Alg.Data/obj/Debug/net5.0/Alg.Data.pdb
+/home/rajkovrga/RiderProjects/AlgSolution/Alg.Data/obj/Debug/net5.0/Alg.Data.genruntimeconfig.cache

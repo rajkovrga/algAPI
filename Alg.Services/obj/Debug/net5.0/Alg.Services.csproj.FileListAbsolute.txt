@@ -1,0 +1,12 @@
+/home/rajkovrga/RiderProjects/AlgSolution/Alg.Services/bin/Debug/net5.0/Alg.Services.deps.json
+/home/rajkovrga/RiderProjects/AlgSolution/Alg.Services/bin/Debug/net5.0/Alg.Services.dll
+/home/rajkovrga/RiderProjects/AlgSolution/Alg.Services/bin/Debug/net5.0/ref/Alg.Services.dll
+/home/rajkovrga/RiderProjects/AlgSolution/Alg.Services/bin/Debug/net5.0/Alg.Services.pdb
+/home/rajkovrga/RiderProjects/AlgSolution/Alg.Services/obj/Debug/net5.0/Alg.Services.csproj.AssemblyReference.cache
+/home/rajkovrga/RiderProjects/AlgSolution/Alg.Services/obj/Debug/net5.0/Alg.Services.GeneratedMSBuildEditorConfig.editorconfig
+/home/rajkovrga/RiderProjects/AlgSolution/Alg.Services/obj/Debug/net5.0/Alg.Services.AssemblyInfoInputs.cache
+/home/rajkovrga/RiderProjects/AlgSolution/Alg.Services/obj/Debug/net5.0/Alg.Services.AssemblyInfo.cs
+/home/rajkovrga/RiderProjects/AlgSolution/Alg.Services/obj/Debug/net5.0/Alg.Services.csproj.CoreCompileInputs.cache
+/home/rajkovrga/RiderProjects/AlgSolution/Alg.Services/obj/Debug/net5.0/Alg.Services.dll
+/home/rajkovrga/RiderProjects/AlgSolution/Alg.Services/obj/Debug/net5.0/ref/Alg.Services.dll
+/home/rajkovrga/RiderProjects/AlgSolution/Alg.Services/obj/Debug/net5.0/Alg.Services.pdb
