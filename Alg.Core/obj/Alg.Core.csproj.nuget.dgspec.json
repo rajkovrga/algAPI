@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/home/rajkovrga/RiderProjects/AlgSolution/Alg.Core/Alg.Core.csproj": {}
+    "C:\\Users\\rajkov\\Desktop\\algAPI\\Alg.Core\\Alg.Core.csproj": {}
   },
   "projects": {
-    "/home/rajkovrga/RiderProjects/AlgSolution/Alg.Core/Alg.Core.csproj": {
+    "C:\\Users\\rajkov\\Desktop\\algAPI\\Alg.Core\\Alg.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/rajkovrga/RiderProjects/AlgSolution/Alg.Core/Alg.Core.csproj",
+        "projectUniqueName": "C:\\Users\\rajkov\\Desktop\\algAPI\\Alg.Core\\Alg.Core.csproj",
         "projectName": "Alg.Core",
-        "projectPath": "/home/rajkovrga/RiderProjects/AlgSolution/Alg.Core/Alg.Core.csproj",
-        "packagesPath": "/home/rajkovrga/.nuget/packages/",
-        "outputPath": "/home/rajkovrga/RiderProjects/AlgSolution/Alg.Core/obj/",
+        "projectPath": "C:\\Users\\rajkov\\Desktop\\algAPI\\Alg.Core\\Alg.Core.csproj",
+        "packagesPath": "C:\\Users\\rajkov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rajkov\\Desktop\\algAPI\\Alg.Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/home/rajkovrga/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\rajkov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.grapecity.com/nuget": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -52,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

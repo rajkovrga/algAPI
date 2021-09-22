@@ -1,8 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Alg.Data.Interfaces;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Alg.Data
 {
@@ -18,7 +16,8 @@ namespace Alg.Data
             {
                 ConfigureDbContext(options, driver, connectionString);
             })
-                .AddTransient<IDbContext, DataContext>();
+                .AddTransient<IDataContext, DataContext>();
+
         }
 
         public static void ConfigureDbContext(DbContextOptionsBuilder options, string driver,

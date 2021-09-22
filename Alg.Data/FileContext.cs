@@ -7,9 +7,9 @@ using System.Text;
 
 namespace Alg.Data
 {
-    public class FileContext
+    public class FileContext : IFileContext
     {
-        private StreamReader getReader()
+        public StreamReader getReader()
         {
             IConfigurationRoot configuration = new ConfigurationBuilder()
                .SetBasePath(Directory.GetCurrentDirectory())
@@ -20,14 +20,6 @@ namespace Alg.Data
             var r = new StreamReader(Path.GetFullPath(path), Encoding.ASCII, true);
             return r;
         }
-        
-        public string Read()
-        {
-            using (var r = getReader())
-            {
-                string text = r.ReadToEnd();
-                return text;
-            }
-        }
+      
     }
 }

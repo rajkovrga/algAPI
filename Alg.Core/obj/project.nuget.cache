@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6GH6SsQaqclqwesw2nYJAFFa1C99iWJtGa3Y+5rqYRzWZqv9TFOq76mqWi99mN2+zZWpuaefRJjr0v742Z54kw==",
+  "dgSpecHash": "UdyznEco+bSbyI5fldhyeMOUUfBLI2d31dfjCliOibfwHLOApc6kwPEdrN/nRe/+WNysmQ9s4LEHUTesXCgbEw==",
   "success": true,
-  "projectFilePath": "/home/rajkovrga/RiderProjects/AlgSolution/Alg.Core/Alg.Core.csproj",
+  "projectFilePath": "C:\\Users\\rajkov\\Desktop\\algAPI\\Alg.Core\\Alg.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

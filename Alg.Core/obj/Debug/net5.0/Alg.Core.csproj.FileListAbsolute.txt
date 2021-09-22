@@ -10,3 +10,15 @@
 /home/rajkovrga/RiderProjects/AlgSolution/Alg.Core/obj/Debug/net5.0/Alg.Core.dll
 /home/rajkovrga/RiderProjects/AlgSolution/Alg.Core/obj/Debug/net5.0/ref/Alg.Core.dll
 /home/rajkovrga/RiderProjects/AlgSolution/Alg.Core/obj/Debug/net5.0/Alg.Core.pdb
+C:\Users\rajkov\Desktop\algAPI\Alg.Core\bin\Debug\net5.0\Alg.Core.deps.json
+C:\Users\rajkov\Desktop\algAPI\Alg.Core\bin\Debug\net5.0\Alg.Core.dll
+C:\Users\rajkov\Desktop\algAPI\Alg.Core\bin\Debug\net5.0\ref\Alg.Core.dll
+C:\Users\rajkov\Desktop\algAPI\Alg.Core\bin\Debug\net5.0\Alg.Core.pdb
+C:\Users\rajkov\Desktop\algAPI\Alg.Core\obj\Debug\net5.0\Alg.Core.csproj.AssemblyReference.cache
+C:\Users\rajkov\Desktop\algAPI\Alg.Core\obj\Debug\net5.0\Alg.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rajkov\Desktop\algAPI\Alg.Core\obj\Debug\net5.0\Alg.Core.AssemblyInfoInputs.cache
+C:\Users\rajkov\Desktop\algAPI\Alg.Core\obj\Debug\net5.0\Alg.Core.AssemblyInfo.cs
+C:\Users\rajkov\Desktop\algAPI\Alg.Core\obj\Debug\net5.0\Alg.Core.csproj.CoreCompileInputs.cache
+C:\Users\rajkov\Desktop\algAPI\Alg.Core\obj\Debug\net5.0\Alg.Core.dll
+C:\Users\rajkov\Desktop\algAPI\Alg.Core\obj\Debug\net5.0\ref\Alg.Core.dll
+C:\Users\rajkov\Desktop\algAPI\Alg.Core\obj\Debug\net5.0\Alg.Core.pdb

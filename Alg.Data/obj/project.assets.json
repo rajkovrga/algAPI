@@ -1593,6 +1593,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "Alg.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Alg.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Alg.Core.dll": {}
+        }
       }
     }
   },
@@ -5968,10 +5978,16 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "Alg.Core/1.0.0": {
+      "type": "project",
+      "path": "../Alg.Core/Alg.Core.csproj",
+      "msbuildProject": "../Alg.Core/Alg.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Alg.Core >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 5.0.10",
       "Microsoft.EntityFrameworkCore.Relational >= 5.0.10",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.10",
@@ -5980,30 +5996,42 @@
     ]
   },
   "packageFolders": {
-    "/home/rajkovrga/.nuget/packages/": {}
+    "C:\\Users\\rajkov\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/rajkovrga/RiderProjects/AlgSolution/Alg.Data/Alg.Data.csproj",
+      "projectUniqueName": "C:\\Users\\rajkov\\Desktop\\algAPI\\Alg.Data\\Alg.Data.csproj",
       "projectName": "Alg.Data",
-      "projectPath": "/home/rajkovrga/RiderProjects/AlgSolution/Alg.Data/Alg.Data.csproj",
-      "packagesPath": "/home/rajkovrga/.nuget/packages/",
-      "outputPath": "/home/rajkovrga/RiderProjects/AlgSolution/Alg.Data/obj/",
+      "projectPath": "C:\\Users\\rajkov\\Desktop\\algAPI\\Alg.Data\\Alg.Data.csproj",
+      "packagesPath": "C:\\Users\\rajkov\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\rajkov\\Desktop\\algAPI\\Alg.Data\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "/home/rajkovrga/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\rajkov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://nuget.grapecity.com/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\rajkov\\Desktop\\algAPI\\Alg.Core\\Alg.Core.csproj": {
+              "projectPath": "C:\\Users\\rajkov\\Desktop\\algAPI\\Alg.Core\\Alg.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -6050,14 +6078,11 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

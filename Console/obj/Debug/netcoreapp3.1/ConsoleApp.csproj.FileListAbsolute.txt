@@ -1,0 +1,14 @@
+C:\Users\rajkov\Desktop\algAPI\Console\bin\Debug\netcoreapp3.1\ConsoleApp.exe
+C:\Users\rajkov\Desktop\algAPI\Console\bin\Debug\netcoreapp3.1\ConsoleApp.deps.json
+C:\Users\rajkov\Desktop\algAPI\Console\bin\Debug\netcoreapp3.1\ConsoleApp.runtimeconfig.json
+C:\Users\rajkov\Desktop\algAPI\Console\bin\Debug\netcoreapp3.1\ConsoleApp.runtimeconfig.dev.json
+C:\Users\rajkov\Desktop\algAPI\Console\bin\Debug\netcoreapp3.1\ConsoleApp.dll
+C:\Users\rajkov\Desktop\algAPI\Console\bin\Debug\netcoreapp3.1\ConsoleApp.pdb
+C:\Users\rajkov\Desktop\algAPI\Console\obj\Debug\netcoreapp3.1\ConsoleApp.csproj.AssemblyReference.cache
+C:\Users\rajkov\Desktop\algAPI\Console\obj\Debug\netcoreapp3.1\ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rajkov\Desktop\algAPI\Console\obj\Debug\netcoreapp3.1\ConsoleApp.AssemblyInfoInputs.cache
+C:\Users\rajkov\Desktop\algAPI\Console\obj\Debug\netcoreapp3.1\ConsoleApp.AssemblyInfo.cs
+C:\Users\rajkov\Desktop\algAPI\Console\obj\Debug\netcoreapp3.1\ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\rajkov\Desktop\algAPI\Console\obj\Debug\netcoreapp3.1\ConsoleApp.dll
+C:\Users\rajkov\Desktop\algAPI\Console\obj\Debug\netcoreapp3.1\ConsoleApp.pdb
+C:\Users\rajkov\Desktop\algAPI\Console\obj\Debug\netcoreapp3.1\ConsoleApp.genruntimeconfig.cache

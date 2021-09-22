@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Alg.Services.Models
+namespace Alg.Core.Models
 {
     public class Item
     {

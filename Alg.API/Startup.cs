@@ -1,16 +1,15 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Alg.Core.Models;
+using Alg.Core.Repositories;
+using Alg.Core.Services;
+using Alg.Data;
+using Alg.Data.Repositories;
+using Alg.Services.Factories;
+using Alg.Services.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
-using Microsoft.OpenApi.Models;
 
 namespace Alg.API
 {
@@ -26,9 +25,21 @@ namespace Alg.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllers();
-            services.AddSwaggerGen(c => { c.SwaggerDoc("v1", new OpenApiInfo {Title = "Alg.API", Version = "v1"}); });
+            services.AddDatabase("sqlserver", Configuration.GetConnectionString("DefaultConnection"))
+                .AddControllers();
+
+            services.AddTransient<IFileContext, FileContext>();
+            services.AddTransient<DataFactory>();
+            services.AddTransient<IDbRepository<Item>, DbRepository>();
+            services.AddTransient<IFileRepository, FileRepository>();
+
+            services.AddTransient<IFileService, FileService>();
+            services.AddTransient<IDbService, DbService>();
+            services.AddTransient<IEntryService, EntryService>();
+
         }
+
+
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -36,8 +47,6 @@ namespace Alg.API
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Alg.API v1"));
             }
 
             app.UseHttpsRedirection();
@@ -46,7 +55,10 @@ namespace Alg.API
 
             app.UseAuthorization();
 
-            app.UseEndpoints(endpoints => { endpoints.MapControllers(); });
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllers();
+            });
         }
     }
 }
