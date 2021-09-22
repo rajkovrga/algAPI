@@ -1,3 +1,4 @@
-.idea
-.vs
-AlgSolution.sln
+*.idea
+*.vs
+*.sln
+Alg.Console/bin
