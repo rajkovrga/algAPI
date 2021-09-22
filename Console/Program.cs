@@ -18,33 +18,27 @@ namespace ConsoleApp
             string desc = "";
             int n;
 
-            while (true)
+            var isNumeric = int.TryParse(r, out n);
+
+            if (!isNumeric)
             {
-                var isNumeric = int.TryParse(r, out n);
-
-                if (!isNumeric)
-                {
-                    Console.WriteLine("Format is not good. Try again:");
-                    r = Console.ReadLine();
-                    continue;
-                }
-
-                if (!(new List<int> { 1, 2, 3 }).Contains(Convert.ToInt32(r)))
-                {
-                    Console.WriteLine("Format is not good. Try again:");
-                    r = Console.ReadLine();
-                    continue;
-                }
-
-                if (Convert.ToInt32(r) == 3)
-                {
-                    Console.WriteLine("Insert text:");
-                    desc = Console.ReadLine();
-                    desc = "?Description=" + desc;
-                }
-
-                break;
+                Console.WriteLine("Format is not good. Try again:");
+                r = Console.ReadLine();
             }
+
+            if (!(new List<int> { 1, 2, 3 }).Contains(Convert.ToInt32(r)))
+            {
+                Console.WriteLine("Format is not good. Try again:");
+                r = Console.ReadLine();
+            }
+
+            if (Convert.ToInt32(r) == 3)
+            {
+                Console.WriteLine("Insert text:");
+                desc = Console.ReadLine();
+                desc = "?Description=" + desc;
+            }
+
             try
             {
                 HttpClient client = new HttpClient();
@@ -52,11 +46,11 @@ namespace ConsoleApp
                 var result = await client.GetAsync("https://localhost:5001/api/Main/" + r + desc);
                 Console.WriteLine("Result is: " + await result.Content.ReadAsStringAsync());
             }
-            catch(Exception)
+            catch (Exception)
             {
                 Console.WriteLine("System error, try later");
             }
-            
+
             Console.ReadLine();
             return 0;
         }
