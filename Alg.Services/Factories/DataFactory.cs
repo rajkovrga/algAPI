@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace Alg.Services.Factories
 {
-    public class DataFactory
+    public class DataFactory : IFactory
     {
         private readonly IFileRepository _fileRepository;
         private readonly IDbRepository<Item> _dbRepository;

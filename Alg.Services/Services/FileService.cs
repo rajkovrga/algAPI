@@ -13,7 +13,12 @@ namespace Alg.Services.Services
         }
         public int GetLength(string desc = "")
         {
-            return _fileRepository.Read().Length;
+            var r = _fileRepository.Read();
+
+            if (r == null)
+                return 0;
+
+            return r.Length;
         }
     }
 }
