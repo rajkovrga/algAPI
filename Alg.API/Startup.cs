@@ -2,11 +2,13 @@ using Alg.Core.Models;
 using Alg.Core.Repositories;
 using Alg.Core.Services;
 using Alg.Data;
+using Alg.Data.Interfaces;
 using Alg.Data.Repositories;
 using Alg.Services.Factories;
 using Alg.Services.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -25,9 +27,12 @@ namespace Alg.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDatabase("sqlserver", Configuration.GetConnectionString("DefaultConnection"))
-                .AddControllers();
-
+            services.AddDbContext<DataContext>(options =>
+                {
+                    options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
+                })
+                    .AddTransient<IDataContext, DataContext>().AddControllers();
+         
             services.AddTransient<IFileContext, FileContext>();
             services.AddTransient<DataFactory>();
             services.AddTransient<IDbRepository<Item>, DbRepository>();

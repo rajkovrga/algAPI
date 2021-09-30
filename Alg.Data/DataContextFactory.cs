@@ -18,9 +18,7 @@ namespace Alg.Data
                 .Build();
 
             var optionsBuilder = new DbContextOptionsBuilder<DataContext>();
-
-            ServiceCollectionExtensions.ConfigureDbContext(optionsBuilder, "sqlserver",
-                configuration.GetConnectionString("DefaultConnection"));
+            optionsBuilder.UseSqlServer(configuration.GetConnectionString("DefaultConnection"));
             return new DataContext(optionsBuilder.Options);
         }
     
